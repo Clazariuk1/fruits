@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+font-size: 10pt;
+}
+
+body {
+    background-color: aqua;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: crimson;
+}
+
+input {
+    border: 1rem solid skyblue;
+    background-color: whitesmoke;
+}
+
+input:hover {
+    cursor: grab;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    font-size: 14pt;
+}
+
+h1 {
+    background-color: crimson;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    text-align: center;
+    font-weight: bold;
+}
+
+submit {
+    text-align: center;
+    font-weight: bold;
+}
+
+submit:hover {
+    cursor:grab;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+checkbox {
+    background-color: whitesmoke;
+    color: crimson;
+    border: solid .5rem skyblue;
+}
+
+checkbox:hover {
+    cursor: pointer;
+}
