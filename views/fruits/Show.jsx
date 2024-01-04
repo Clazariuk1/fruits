@@ -6,7 +6,7 @@ const Default = require('../layout/Default.jsx')
 
 function Show(props) {
     return(
-        <Default title={`${props.fruit.title}`}>
+        <Default>
             <div>
                 <h1>{props.fruit.name}</h1>
                 <a href='/fruits'>Go back to Index Page</a>

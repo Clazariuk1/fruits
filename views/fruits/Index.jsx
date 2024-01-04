@@ -3,7 +3,7 @@ const Default = require('../layout/Default.jsx')
 
 function Index (props) {
     return (
-        <Default title={`${props.fruits.title}`}>
+        <Default>
             <div>
                 <h1>Fruits Index Page</h1>
                 <a href="/fruits/new">Create a new Fruit Here</a>

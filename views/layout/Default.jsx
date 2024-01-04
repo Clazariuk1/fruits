@@ -3,7 +3,6 @@ const React = require('react')
 class DefaultLayout extends React.Component {
     render() {
         return (
-            <Default title={`${props.fruits.title}`}>
             <html>
                 <head>
                     <title>{this.props.title}</title>
@@ -14,7 +13,6 @@ class DefaultLayout extends React.Component {
                     {this.props.children}
                 </body>
             </html>
-            </Default>
         )
     }
 }

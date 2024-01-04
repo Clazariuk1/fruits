@@ -4,7 +4,7 @@ const Default = require('../layout/Default.jsx')
 function Edit (props) {
     const { name, _id, readyToEat, color } = props.fruit
     return(
-        <Default title={`${props.fruit.title}`}>
+        <Default>
             <div>
                 <h1>{name} Edit Page</h1>
                 <a href='/fruits'>Go back to Index Page</a>
