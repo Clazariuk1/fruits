@@ -1,14 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa|Righteous');
 
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10pt;
+    }
+
 body {
   background: url(https://images.clipartlogo.com/files/istock/previews/8741/87414357-apple-seamless-pastel-colors-pattern-fruits-texture-background.jpg);
   margin: 0;
   font-family: 'Comfortaa', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  font-size: 14pt;
 }
 
 h1 {
   font-family: 'Righteous', cursive;
   background: antiquewhite;
+  color: skyblue;
   margin:0;
   margin-bottom: .5em;
   padding: 1em;
@@ -17,10 +31,13 @@ h1 {
 
 a {
 color: orange;
+border-radius: 10%;
 text-decoration: none;
 text-shadow: 1px 1px 1px black;
 font-size: 1.5em;
 background: rgba(193, 235, 187, .9);
+margin: 1rem;
+padding: 1rem;
 }
 
 a:hover {
@@ -29,64 +46,53 @@ color: ghostwhite;
 
 li {
 list-style: none;
+padding: .5rem;
 }
 
 li a {
 color: mediumseagreen;
+padding: .3rem;
 }
 
 input[type=text] {
 padding: .3em;
+margin: .3em;
+background-color: greenyellow;
+color: black;
 }
 
 input[type=submit] {
 padding: .3em;
-color: orange;
+color: black;
 background: mediumseagreen;
 font-size: 1em;
 border-radius: 10%;
-}
-
-/* * {
-    box-sizing: border-box;
-}
-
-html {
-font-size: 10pt;
-}
-
-body {
-    background-color: aqua;
-}
-
-h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: crimson;
-}
-
-input {
-    border: 1rem solid skyblue;
-    background-color: whitesmoke;
+margin: .3em;
 }
 
 input:hover {
     cursor: grab;
 }
 
-body {
+ul {
+    border: solid 1rem skyblue;
+    background-color: whitesmoke;
+    text-align: left;
+}
+
+form {
+    border: solid 1rem aqua;
+    background-color: whitesmoke;
+    margin: 1rem;
+    width: fit-content;
+}
+
+div {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
-    background-color: aqua;
-    font-size: 14pt;
-}
-
-h1 {
-    background-color: crimson;
-}
-
-a {
-    text-decoration: none;
+    text-align: center;
 }
 
 button {
@@ -115,4 +121,23 @@ checkbox {
 
 checkbox:hover {
     cursor: pointer;
-} */
+}
+
+p {
+    background-color: skyblue;
+    padding: 1rem;
+    color: black;
+}
+
+button {
+    color: orange;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    padding: 1rem;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.25);
+    transition: 1.25s;
+}
